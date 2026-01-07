@@ -1,0 +1,8 @@
+# Direct dependencies only - let Vertex AI runtime resolve transitive dependencies
+google-adk>=1.21.0
+google-cloud-aiplatform[adk,agent-engines]>=1.132.0
+google-cloud-logging>=3.12.1
+httpx>=0.27.0
+python-dotenv>=1.2.1
+python-json-logger>=4.0.0
+fastapi>=0.115.0
